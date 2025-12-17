@@ -7,8 +7,9 @@ pwd=st.text_input("PASSWORD",type="password")
 def login():
     if user=='admin' and pwd=="1234":
         st.success("valid user")
-        st.snow()
+        st.balloons()
         st.link_button("ST.PETERS","https://www.spechyd.ac.in/")
     else:
             st.error("INVALID USER")
 st.button("LOGIN",on_click=login)
+
